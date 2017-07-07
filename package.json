@@ -1,0 +1,31 @@
+{
+  "name": "wechat",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "color": "^1.0.3",
+    "jquery": "^3.2.1",
+    "jsdom": "^11.0.0",
+    "react": "16.0.0-alpha.6",
+    "react-dom": "^15.6.1",
+    "react-native": "0.44.0",
+    "react-native-wechat": "^1.9.2",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "babel-jest": "20.0.3",
+    "babel-preset-react-native": "1.9.2",
+    "babel-preset-react-native-stage-0": "^1.0.1",
+    "jest": "20.0.3",
+    "react-test-renderer": "16.0.0-alpha.6"
+  },
+  "jest": {
+    "preset": [
+      "react-native-stage-0"
+    ]
+  }
+}
